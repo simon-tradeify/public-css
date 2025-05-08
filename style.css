@@ -278,7 +278,7 @@
     border-bottom-left-radius: 0!important;
   }
 
-  .modal-dialog .text-muted, .modal-dialog .form-control, .modal-dialog input.form-control{
+  .modal-dialog .text-muted, .modal-dialog .form-control, .modal-dialog input.form-control, .modal-dialog *{
     color:var(--containerCard)!important;
   }
 
