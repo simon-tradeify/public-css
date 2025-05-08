@@ -277,7 +277,9 @@
     border-top-left-radius: 0!important;
     border-bottom-left-radius: 0!important;
   }
-
+  .modal-dialog {
+    --bs-modal-color: var(--containerCard)!important;
+  }
   .modal-dialog .text-muted, .modal-dialog .form-control, .modal-dialog input.form-control, .modal-dialog *,
   .modal-dialog .modal-title, .modal-dialog .modal-body, .modal-dialog label{
     color:var(--containerCard)!important;
