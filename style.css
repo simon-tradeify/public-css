@@ -17,7 +17,7 @@
     --destructive: #D94848;
     --destructive-foreground: #ffffff;
     --border: #1E516E;
-    --input: #1E516E;
+    --input: #1E445C;
     --ring: #10D48E;
     --radius: 0.75rem;
   }
@@ -248,13 +248,37 @@
     padding: 0.5rem 0.75rem;
     transition: border-color 0.2s ease;
   }
+  input.form-control{
+    border-radius:6px!important;
+    box-shadow:none!important;
+    color: var(--foreground)!important;
+
+  }
+  input.form-control::placeholder{
+    color:var(--muted-foreground)!important;
+  }
+  .btn.btn-primary{
+    color:var(--containerCard)!important;
+  }
   
   .form-control:focus {
     border-color: var(--ring);
     box-shadow: 0 0 0 2px rgba(110, 86, 207, 0.2);
     outline: none;
+    color: var(--containerCard)!important;
   }
   
+  span.input-group-text {
+    background-color: var(--border)!important;
+    color:var(--foreground)!important;
+    border-color: var(--border)!important;
+  }
+
+  .modal-dialog .text-muted, .modal-dialog .form-control, .modal-dialog input.form-control{
+    color:var(--containerCard)!important;
+  }
+
+
   /* Lists and borders */
   .list-group {
     border-radius: var(--radius);
