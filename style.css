@@ -273,7 +273,7 @@
     color:var(--foreground)!important;
     border-color: var(--border)!important;
   }
-  .span.input-group-text + input {
+  .span.input-group-text + input,  .span.input-group-text + input.form-control {
     border-top-left-radius: 0!important;
     border-bottom-left-radius: 0!important;
   }
