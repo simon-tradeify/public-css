@@ -273,6 +273,10 @@
     color:var(--foreground)!important;
     border-color: var(--border)!important;
   }
+  .span.input-group-text + input {
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+  }
 
   .modal-dialog .text-muted, .modal-dialog .form-control, .modal-dialog input.form-control{
     color:var(--containerCard)!important;
