@@ -24,6 +24,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
   
   
+
   /* Base styles */
   body {
     background-color: var(--background);
@@ -355,6 +356,10 @@
   .badge-secondary {
     background-color: var(--secondary);
     color: var(--secondary-foreground);
+  }
+
+  .badge, .badge-secondary{
+      display:none!important;
   }
   
   /* Icons and SVGs */
