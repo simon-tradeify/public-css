@@ -41,6 +41,7 @@
   
   .bg-light, .bg-white {
     background-color: var(--background) !important;
+    color:#fff!important;
   }
   .nav-tabs {
     background: var(--containerCard);
