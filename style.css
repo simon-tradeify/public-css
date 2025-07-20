@@ -41,8 +41,10 @@
   
   .bg-light, .bg-white {
     background-color: var(--background) !important;
-    color:#fff!important;
   }
+.modal-dialog .bg-light, .modal-dialog .bg-light *{
+    color:#fff!important;
+}
   .nav-tabs {
     background: var(--containerCard);
     border: 1px solid var(--border);
