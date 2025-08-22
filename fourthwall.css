@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
-
+:root{
+  --font-family-base-name:'Mona Sans', sans-serif!important;
+  --font-family-heading:'Mona Sans', sans-serif!important;
+}
 body {
   font-family: 'Mona Sans', sans-serif!important;
   margin: 0;
   padding: 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-weight: bold;
+  font-weight: bold!important;
   font-stretch: 75%;
   font-variation-settings: "ital" 0, "wdth" 125;
 }
